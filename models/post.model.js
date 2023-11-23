@@ -6,6 +6,7 @@ const plantSchema = mongoose.Schema({
     description: String,
     careguide: String,
     image: String,
+    category: String
 })
 
 const PlantModel = mongoose.model("plants", plantSchema)
